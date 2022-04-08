@@ -1,1 +1,0 @@
-- https://allanmacgregor.com/posts/design-patterns-php-factories
