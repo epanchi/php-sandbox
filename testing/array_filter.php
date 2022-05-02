@@ -19,3 +19,6 @@ print_r(array_filter($a1,"test_odd"));
     [3] => 3
 )
  */
+
+
+print_r( array_filter($a1, function($x){return ($x & 1);}));
