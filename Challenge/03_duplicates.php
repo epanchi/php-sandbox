@@ -19,7 +19,9 @@ function findDuplicates($integerArray)
 function duplicates($array)
 {
     $response = [];
+    print_r(array_count_values($array));
     foreach (array_count_values($array) as $index => $item) {
+        print_r($item);
         if ($item > 1)
             array_push($response, $index);
     }
@@ -28,6 +30,9 @@ function duplicates($array)
 $array = [3, 3, 2, 1, 1, 3, 4, 4, 8];
 
 print_r(findDuplicates($array));
+
+$array = [3, 3, 2, 1, 1, 3, 4, 4, 8];
+
 print_r(duplicates($array));
 
 

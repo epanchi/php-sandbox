@@ -6,3 +6,7 @@ Running some testing and functions sctips
 
 ## Documentation references
 - https://www.w3schools.com/php/
+
+## PHP Challenges
+- https://www.w3resource.com/php-exercises/challenges/1/index.php
+
